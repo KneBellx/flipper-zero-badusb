@@ -1,0 +1,17 @@
+REM Author: KneBellx
+REM Description: Launches Safari on iOS/iPadOS via Spotlight search and automatically navigates to the specified website.
+REM Target OS: iOS / iPadOS
+REM Version: 1.0.0
+
+DELAY 1000
+GUI SPACE
+DELAY 800
+STRING safari
+DELAY 500
+ENTER
+DELAY 1200
+GUI l
+REM Replace the URL below with your target website
+STRING https://australis-hosting.com
+DELAY 500
+ENTER

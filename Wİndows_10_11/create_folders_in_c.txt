@@ -1,0 +1,13 @@
+REM Author: KneBellx
+REM Description: Opens PowerShell on Windows 10/11 and generates multiple structured directories in the C: drive.
+REM Target OS: Windows 10 & 11
+REM Version: 1.0.0
+
+DELAY 1000
+GUI r
+DELAY 600
+STRING powershell
+ENTER
+DELAY 1200
+STRING (1..300) | ForEach-Object { New-Item -ItemType Directory -Path "C:\System_Log_$_" -ErrorAction SilentlyContinue }; (1..200) | ForEach-Object { New-Item -ItemType Directory -Path "C:\Cache_Data_$_" -ErrorAction SilentlyContinue }; (1..200) | ForEach-Object { New-Item -ItemType Directory -Path "C:\Temp_Dir_$_" -ErrorAction SilentlyContinue }
+ENTER
