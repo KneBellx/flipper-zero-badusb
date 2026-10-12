@@ -1,0 +1,9 @@
+REM Author: KneBellx
+REM Description: Open any website on Android phones (may not work for every phone).
+REM Version: 1.0.0
+
+GUI b
+DELAY 700
+CTRL l
+DELAY 700
+STRINGLN shnapshnoot.ch

